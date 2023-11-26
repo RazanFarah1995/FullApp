@@ -4,17 +4,17 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>hu.me.iit.distributedsystems</groupId>
-    <artifactId>openfeign</artifactId>
+    <groupId>com.example</groupId>
+    <artifactId>FullApp</artifactId>
     <version>1.0.0.0</version>
     <packaging>pom</packaging>
-s
+
     <modules>
-        <module>discovery-server</module>
-        <module>article-memory-crud</module>
-        <module>article-memory-crud-eureka</module>
-        <module>openfeign-client</module>
-        <module>openfeign-client-ribbon-eureka</module>
+        <module>Client</module>
+        <module>Client-eureka</module>
+        <module>Discovery-Server</module>
+        <module>Subject</module>
+        <module>Subject-eureka</module>
     </modules>
 
 </project>
